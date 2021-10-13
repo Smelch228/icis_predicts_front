@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import { Counter } from "./features/counter/Counter";
+import Name from "./features/name/Name";
 import "./App.css";
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
                         React Redux
                     </a>
                 </span>
+                <Name />
             </header>
         </div>
     );
